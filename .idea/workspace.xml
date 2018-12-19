@@ -4,219 +4,6 @@
     <list default="true" id="03b7d54f-bf16-40f1-a3a7-1801fd90ce7a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Classloader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/CurrentcyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/DataObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/DeadLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/EnumTest/EnumTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/FileTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/GetIndexByValue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ObjectInfo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ObjectInfo$OffsetComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ObjectInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/RuntimeConstantpoolOOM.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/SSClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/SemaPhore$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/SemaPhore.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/SubClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/SuperClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Test2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/TestOOM.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/batch/JDBCBatchTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/batch/UuidUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrent/QueueTest/DelayQueueTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrent/atomic/AtomicPlusTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrent/atomic/AtomicPlusTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrent/atomic/AtomicReference.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrent/atomic/AtomicTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrent/atomic/AtomicTest$IntPair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrent/atomic/AtomicTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrent/countDownLatch/CountDownLatchDemo$Worker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrent/countDownLatch/CountDownLatchDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrent/countDownLatch/CountDownLatchDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrent/countDownLatch/CountDownLatchDemo3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrent/countDownLatch/TaskWithResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrent/executor/RunnableDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrent/executor/RunnableTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrent/executor/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrent/executor/ThreadPoolExecutorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrent/executor/execute/ExecutorsFixedTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrent/executor/execute/ExecutorsSingleTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrent/executor/execute/RunnableDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrent/executor/execute/RunnableDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrent/executor/execute/RunnableDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrent/executor/execute/ThreadTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrent/executor/submit/ExecutorSubmit$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrent/executor/submit/ExecutorSubmit$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrent/executor/submit/ExecutorSubmit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrent/executor/submit/ExecutorSubmitDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrent/executor/submit/TaskWithResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrent/executor/timer/diff1/ScheduledThreadPoolExecutorTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrent/executor/timer/diff1/ScheduledThreadPoolExecutorTest$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrent/executor/timer/diff1/ScheduledThreadPoolExecutorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrent/executor/timer/diff1/TimerTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrent/executor/timer/diff1/TimerTest$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrent/executor/timer/diff1/TimerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrent/executor/timer/diff2/ScheduledThreadPoolDemo01$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrent/executor/timer/diff2/ScheduledThreadPoolDemo01$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrent/executor/timer/diff2/ScheduledThreadPoolDemo01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrent/executor/timer/diff2/TimerDemo1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrent/executor/timer/diff2/TimerDemo1$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrent/executor/timer/diff2/TimerDemo1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrent/future/FutureTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrent/future/FutureTest$SayHello.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/concurrent/future/FutureTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cpu/CPUTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/date/DateTools.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/date/DateUtil$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/date/DateUtil$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/date/DateUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/date/TestDate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/doubletest/DoubleTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/encode/BatchFilesEncoder$MyFileFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/encode/BatchFilesEncoder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/encode/SwitchUnicode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/es/model/Medicine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/es/model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/es/service/DataFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/es/util/JsonUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/exception/ExceptionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/factory/FactoryTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/factory/MyFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/factory/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/file/CountryMapping.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/file/ExcelTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/file/FileTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/file/nio/IOTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/file/util/FileNIOUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/file/util/FileUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/generic/GenericTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/generic/Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/generic/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/guava/GuavaTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/guava/JoinerDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/guava/OptionalDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/guava/SplitterDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/guava/StringsDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/guava/cache/CacheTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/guava/cache/CacheTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/guava/flowlimit/RateLimitFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hashcode/HashcodeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hashcode/Name.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/http/CurlTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/http/HttpClientTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/http/HttpClientUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/http/HttpTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/http/HttpUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hystrix/CommandSetter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hystrix/HelloCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java8/CreateStreamTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java8/DateTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java8/FindTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java8/MatchTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java8/NullPointerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java8/OptionalTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java8/PredicateTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java8/ReduceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java8/customFunctionalInterface/MTDPMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java8/customFunctionalInterface/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java8/iface/IUserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java8/iface/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/java8/iface/UserServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jdbc/JdbcTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jdbc/JdbcUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/json/FastjsonBug.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/json/GsonTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/json/GsonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/json/IdNameDo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/json/JsonDemo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/json/JsonDemo$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/json/JsonDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/json/RoomAmenityModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/json/RoomTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/json/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/json/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/json/UserModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jvm/GCTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jvm/HeapOOM$OOMObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/jvm/HeapOOM.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kafka/KafkaConstants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kafka/KafkaConsumerModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kafka/KafkaConsumerModel2$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kafka/KafkaConsumerModel2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kafka/KafkaConsumerModel3$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kafka/KafkaConsumerModel3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kafka/KafkaProducerModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/kafka/KafkaTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/list/CopyOnWriteArrayListDemo$ReadTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/list/CopyOnWriteArrayListDemo$WriteTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/list/CopyOnWriteArrayListDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/list/ListCopyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/list/ListInThreads$ReadTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/list/ListInThreads$WriteTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/list/ListInThreads.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/listener/custom/EmailManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/listener/custom/Entry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/listener/custom/EntryEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/listener/custom/EntryEventDispatcher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/listener/custom/EntryListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/listener/custom/EntryManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/listener/custom/IndexManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/listener/custom/PropertyMgr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/listener/custom/ScoreManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/listener/jdk/SimpleObservable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/listener/jdk/SimpleObserver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/listener/jdk/SimpleTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/listener/jdk/SimpleTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/log/logback/LogbackTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/log/logging/LoggingTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mahl/DownloadTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mahl/ListSortByCustom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mahl/ListSortByCustom2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mahl/ListSortByCustom3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mahl/MyComparactor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mahl/MyComparactor2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mahl/MyComparactor3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/map/MapTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/map/MultimapDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mcc/PolicyDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mq/activemq/onetomany/TopicListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/objectSize/SizeOfObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/objectSize/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/proxy/Human.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/proxy/HumanOperation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/proxy/SleepHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/proxy/SleepProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/reentrant/ReadWriteLockTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/reentrant/ReadWriteLockTest$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/reentrant/ReadWriteLockTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/reentrant/SynchronizedTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/reentrant/SynchronizedTest$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/reentrant/SynchronizedTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/reflect/ConstructorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/reflect/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/reflect/method/People.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/reflect/method/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/serialize/DeserializeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/set/SetTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/socket/CientSocketTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/socket/nio/NIOClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/socket/nio/NIOServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/socket/simple/ListenClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/socket/simple/simpleClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/socket/simple/simpleServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/spring/event/MyEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/stackAndHeap/StackAndHeapTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/string/StringTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/string/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/util/JsonUtils$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/util/JsonUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/util/OrderedProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/util/PropertiesUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/practical.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/spring-util.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -271,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="67" lean-forward="true" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
+            <state relative-caret-position="225">
+              <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -334,7 +121,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545233464743" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545233630698" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -458,12 +245,12 @@
       <workItem from="1545232287813" duration="557000" />
       <workItem from="1545233006303" duration="96000" />
       <workItem from="1545233119860" duration="81000" />
-      <workItem from="1545233218179" duration="288000" />
+      <workItem from="1545233218179" duration="418000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1022000" />
+    <option name="totallyTimeSpent" value="1152000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="50" y="23" width="1390" height="877" extended-state="6" />
@@ -555,8 +342,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="67" lean-forward="true" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
+        <state relative-caret-position="225">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
         </state>
       </provider>
     </entry>
