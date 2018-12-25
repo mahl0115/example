@@ -12,13 +12,13 @@ import java.util.concurrent.TimeUnit;
  */
 public class ThreadPoolExecutorTest {
 
-    private static final BlockingQueue<Runnable> queue = new LinkedBlockingQueue<Runnable>(5);
+    private static final BlockingQueue<Runnable> queue = new LinkedBlockingQueue<Runnable>(50);
 
-    private static final ThreadPoolExecutor exe = new ThreadPoolExecutor(0, 10, 10L, TimeUnit.SECONDS, queue, new AbortPolicy());
+    private static final ThreadPoolExecutor exe = new ThreadPoolExecutor(0, 10, 100L, TimeUnit.SECONDS, queue, new AbortPolicy());
 
     public static void main(String[] args) throws InterruptedException {
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 100; i++) {
             exe.execute(new RunnableDemo("thread:" + i));
         }
         //TimeUnit.MINUTES.sleep(1);

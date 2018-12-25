@@ -1,4 +1,4 @@
-//package com.mq.activemq.onotoone;
+package com.mq.activemq.onotoone;//package com.mq.activemq.onotoone;
 //
 //import javax.jms.Connection;
 //import javax.jms.ConnectionFactory;

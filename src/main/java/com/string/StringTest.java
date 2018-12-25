@@ -1,14 +1,15 @@
 package com.string;
 
+import com.google.common.collect.Lists;
 import org.apache.commons.lang3.StringUtils;
+
+import java.util.List;
 
 public class StringTest {
 
     public static void main(String[] args) {
-        String s = "1,2,3";
-        String result = s.substring(0, s.indexOf(","));
-        System.out.println(result);
 
-        System.out.println(StringUtils.isNoneBlank("", "1"));
+        List list = Lists.newArrayList(1, 2, 3);
+        System.out.println(StringUtils.join(list, ","));
     }
 }

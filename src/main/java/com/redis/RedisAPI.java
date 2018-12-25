@@ -1,4 +1,4 @@
-//package com.redis;
+package com.redis;//package com.redis;
 //
 //import java.util.HashMap;
 //import java.util.Map;

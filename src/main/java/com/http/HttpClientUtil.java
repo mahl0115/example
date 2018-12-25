@@ -23,7 +23,7 @@ public class HttpClientUtil {
     public static final String CHARSET = "UTF-8";
 
     static {
-        RequestConfig config = RequestConfig.custom().setConnectTimeout(60000).setSocketTimeout(15000).build();
+        RequestConfig config = RequestConfig.custom().setConnectTimeout(6000000).setSocketTimeout(1500000).build();
         httpClient = HttpClientBuilder.create().setDefaultRequestConfig(config).build();
     }
 
@@ -56,7 +56,6 @@ public class HttpClientUtil {
                 url += "?" + EntityUtils.toString(new UrlEncodedFormEntity(pairs, charset));
             }
             HttpGet httpGet = new HttpGet(url);
-            httpGet.setHeader("User-Agent", "huawei-beta/1694 (unknown, iOS 11.0, iPhone, Scale/3.000000)");
             CloseableHttpResponse response = httpClient.execute(httpGet);
             int statusCode = response.getStatusLine().getStatusCode();
             if (statusCode != 200) {

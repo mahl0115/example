@@ -15,10 +15,13 @@ public class HttpClientTest {
 //        System.out.println("response: \n" + str);
 
 
-        String url = "http://wx.muyouguoji.com/index.php?g=Wap&m=AdvancedVote&a=show&vote_id=12800&item_id=56775&from=timeline&isappinstalled=0";
+        String access_code = "https://api.weibo.com/oauth2/authorize";
         Map<String, String> map = Maps.newHashMap();
-        String str = HttpClientUtil.doGet(url, map);
-        System.out.println("request: \n" + url.toString());
+        map.put("client_id", "1252908463");
+        map.put("redirect_uri", "https://itunes.apple.com/cn");
+        //map.put("grant_type", "authorization_code");
+        String str = HttpClientUtil.doPost(access_code, map);
+        System.out.println("request: \n" + access_code.toString());
         System.out.println("response: \n" + str);
     }
 }

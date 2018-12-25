@@ -1,5 +1,11 @@
 package com.string;
 
+import com.google.common.base.Joiner;
+import com.google.common.collect.ImmutableList;
+import org.apache.commons.lang3.StringUtils;
+
+import java.util.List;
+
 /**
  * aa
  *
@@ -9,17 +15,8 @@ package com.string;
 public class Test {
 
     public static void main(String[] args) {
-        String str = "中午12";
-        str = str.trim();
-        String str2 = "";
-        if (str != null && !"".equals(str)) {
-            for (int i = 0; i < str.length(); i++) {
-                if (str.charAt(i) >= 48 && str.charAt(i) <= 57) {
-                    str2 += str.charAt(i);
-                }
-            }
-
-        }
-        System.out.println(str2);
+        List<Integer> list = ImmutableList.of(1, null, 3);
+        System.out.println(Joiner.on("_").join(list));
+        //System.out.println(StringUtils.join(list, "_"));
     }
 }

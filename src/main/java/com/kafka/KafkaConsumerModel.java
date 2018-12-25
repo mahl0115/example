@@ -11,10 +11,7 @@ import kafka.serializer.Decoder;
 import kafka.serializer.StringDecoder;
 import kafka.utils.VerifiableProperties;
 
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.Properties;
+import java.util.*;
 
 /**
  * Created by mahailong on 16/12/1.

@@ -2,6 +2,7 @@ package com.guava;
 
 import com.google.common.base.Splitter;
 
+import java.util.Iterator;
 import java.util.List;
 
 /**

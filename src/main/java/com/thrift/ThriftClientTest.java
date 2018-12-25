@@ -1,4 +1,4 @@
-//package com.thrift;
+package com.thrift;//package com.thrift;
 //
 //import com.thrift.thrift.TOrderService;
 //import com.thrift.thrift.TUser;

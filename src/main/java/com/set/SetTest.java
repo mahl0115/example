@@ -1,6 +1,7 @@
 package com.set;
 
-import java.util.HashSet;
+import com.google.common.collect.Sets;
+
 import java.util.Set;
 
 /**
@@ -12,11 +13,9 @@ import java.util.Set;
 public class SetTest {
 
     public static void main(String[] args) {
-        Set<String> set = new HashSet<String>();
-        set.add("1");
-        set.add("1");
-        set.add("2");
-        set.add("2");
-        System.out.println(set);
+        Set<Integer> set1 = Sets.newHashSet(1, 2);
+        Set<Integer> set2 = Sets.newHashSet(1, 2, 3, 4);
+        set1.removeAll(set2);
+        System.out.println(set1);
     }
 }

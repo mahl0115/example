@@ -1,31 +1,50 @@
 package com.json;
 
-import com.google.gson.ExclusionStrategy;
-import com.google.gson.FieldAttributes;
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
+import com.google.gson.*;
+import org.apache.commons.lang3.StringUtils;
+
+import java.util.Arrays;
+import java.util.List;
 
 /**
- * @Author mahl
- * @Date 2018-01-29
+ * Created by mahailong on 16/11/1.
  */
 public class GsonTest {
 
-    public static void main(String[] args) {
-        Gson gson = new GsonBuilder().addSerializationExclusionStrategy(new ExclusionStrategy() {
-            @Override
-            public boolean shouldSkipField(FieldAttributes fieldAttributes) {
-                if ("name".equals(fieldAttributes.getName())) {
-                    return true;
-                }
-                return false;
-            }
+    public static final String s = "sort|name";
 
-            @Override
-            public boolean shouldSkipClass(Class<?> aClass) {
-                return false;
-            }
-        }).create();
-        System.out.println(gson.toJson(new User("1", "2", "3")));
+    public static List<String> list = null;
+
+    private static final Gson gson = new Gson();
+
+    private static final Gson gsonAnnotation = new GsonBuilder().addSerializationExclusionStrategy(new ExclusionStrategy() {
+
+        @Override
+        public boolean shouldSkipField(FieldAttributes fieldAttributes) {
+            return false;
+        }
+
+        @Override
+        public boolean shouldSkipClass(Class<?> clazz) {
+            return false;
+        }
+    }).create();
+
+    public static final Gson gsonCunstomField = new GsonBuilder()
+            .setFieldNamingStrategy(f -> {
+                if (f.getName().equals("name")) {
+                    return "id";
+                } else if (f.getName().equals("content")) {
+                    return "name";
+                }
+                return f.getName();
+            }).create();
+
+    public static void main(String[] args) {
+        list = Arrays.asList(StringUtils.split("|"));
+
+        User user = new User("1", "2", "3");
+        //shouldSkipField和shouldSkipClass两个方法必须同时返回false才可序列化
+        System.out.println(gsonAnnotation.toJson(user));
     }
 }

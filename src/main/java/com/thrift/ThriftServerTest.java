@@ -1,4 +1,4 @@
-//package com.thrift;
+package com.thrift;//package com.thrift;
 //
 //import com.thrift.impl.OrderServiceImpl;
 //import com.thrift.impl.UserServiceImpl;

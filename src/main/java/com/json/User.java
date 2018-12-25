@@ -1,48 +1,49 @@
 package com.json;
 
+import com.alibaba.fastjson.annotation.JSONField;
+
 /**
  * Created by mahailong on 16/12/14.
  */
 public class User {
 
-    private String sort;
+    @JSONField(name = "sort")
+    private String Sort;
 
-    private String name;
+    @JSONField(name = "name")
+    private String Name;
 
-    private String content;
-
-    public User() {
-    }
+    @JSONField(name = "content")
+    private String Content;
 
     public User(String sort, String name, String content) {
-        this.sort = sort;
-        this.name = name;
-        this.content = content;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getContent() {
-        return content;
-    }
-
-    public void setContent(String content) {
-        this.content = content;
+        Sort = sort;
+        Name = name;
+        Content = content;
     }
 
     public String getSort() {
-        return sort;
+        return Sort;
     }
 
     public void setSort(String sort) {
-        this.sort = sort;
+        Sort = sort;
     }
 
+    public String getName() {
+        return Name;
+    }
+
+    public void setName(String name) {
+        Name = name;
+    }
+
+    public String getContent() {
+        return Content;
+    }
+
+    public void setContent(String content) {
+        Content = content;
+    }
 
 }

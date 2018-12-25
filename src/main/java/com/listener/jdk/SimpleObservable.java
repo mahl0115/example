@@ -1,8 +1,8 @@
 package com.listener.jdk;
 
-import org.apache.commons.lang3.StringUtils;
-
 import java.util.Observable;
+
+import org.apache.commons.lang3.StringUtils;
 
 public class SimpleObservable extends Observable {
 
