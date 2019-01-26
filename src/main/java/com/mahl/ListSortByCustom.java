@@ -6,9 +6,9 @@ import java.util.Comparator;
 import java.util.List;
 
 /**
- * è‡ªå®šä¹‰æ’åºint
- * @author mahl
- * 2015å¹´11æœˆ12æ—¥ä¸Šåˆ11:15:55
+ * ×Ô¶¨ÒåÅÅĞòint
+ * @author mahl  
+ * 2015Äê11ÔÂ12ÈÕÉÏÎç11:15:55
  */
 public class ListSortByCustom{
 
@@ -24,22 +24,22 @@ public class ListSortByCustom{
 		list.add(4);
 		list.add(2);
 		list.add(3);
-		System.out.println("åˆå§‹åŒ–listä¸º");
+		System.out.println("³õÊ¼»¯listÎª");
 		output(list);
 		System.out.println();
-		System.out.println("é»˜è®¤æ’åºålistä¸º");
-		Collections.sort(list);//é»˜è®¤å‡åº
+		System.out.println("Ä¬ÈÏÅÅĞòºólistÎª");
+		Collections.sort(list);//Ä¬ÈÏÉıĞò
 		output(list);
 		System.out.println();
-		System.out.println("è‡ªå®šä¹‰æ’åºålistä¸º");
+		System.out.println("×Ô¶¨ÒåÅÅĞòºólistÎª");
 		Collections.sort(list, new MyComparactor());
 		output(list);
 	}
-
+	
 	/**
-	 * è¾“å…¥list
+	 * ÊäÈëlist
 	 * @author mahl
-	 * 2015å¹´11æœˆ12æ—¥ä¸Šåˆ11:16:56
+	 * 2015Äê11ÔÂ12ÈÕÉÏÎç11:16:56
 	 */
 	public static void output(List list){
 		if(list != null && list.size() > 0){
@@ -50,14 +50,14 @@ public class ListSortByCustom{
 			}
 			return;
 		}
-		System.out.println("listä¸ºç©ºï¼");
+		System.out.println("listÎª¿Õ£¡");
 	}
 }
 
 /**
- * è‡ªå®šä¹‰listæ¯”è¾ƒå™¨
- * @author mahl
- * 2015å¹´11æœˆ12æ—¥ä¸Šåˆ11:17:04
+ * ×Ô¶¨Òålist±È½ÏÆ÷
+ * @author mahl  
+ * 2015Äê11ÔÂ12ÈÕÉÏÎç11:17:04
  */
 @SuppressWarnings("rawtypes")
 class MyComparactor implements Comparator{
@@ -74,5 +74,5 @@ class MyComparactor implements Comparator{
 		}
 		return value2.compareTo(value1);
 	}
-
+	
 }

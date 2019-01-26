@@ -16,6 +16,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
+import java.lang.reflect.Type;
 import java.util.List;
 
 /**
@@ -162,8 +163,8 @@ public class JsonUtils {
      */
     public static <T> List<T> toList(String json, Class<T> clazz) {
         return gson.fromJson(json,
-                new TypeToken<List<T>>() {
-                }.getType());
+                             new TypeToken<List<T>>() {
+                             }.getType());
     }
 
     /**
@@ -174,6 +175,18 @@ public class JsonUtils {
      */
     public static JsonObject toJsonObject(String json) {
         return gson.fromJson(json, JsonObject.class);
+    }
+
+    /**
+     * string to bean
+     *
+     * @param json
+     * @param type
+     * @param <T>
+     * @return
+     */
+    public static <T> T toBean(String json, Type type) {
+        return gson.fromJson(json, type);
     }
 }
 

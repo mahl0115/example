@@ -1,11 +1,11 @@
 package com.batch;
 
-import org.apache.commons.lang3.time.StopWatch;
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+
+import org.apache.commons.lang3.time.StopWatch;
 
 /**
  * jdbc批处理： noBatch为原始jdbc插入一条数据，循环100次需要打开关闭数据连接100次，花费时间大概7s左右;

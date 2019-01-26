@@ -1,4 +1,4 @@
-//package com.log.log4j;
+package com.log.log4j;//package com.log.log4j;
 //
 //import org.apache.log4j.Logger;
 //import org.apache.log4j.PropertyConfigurator;

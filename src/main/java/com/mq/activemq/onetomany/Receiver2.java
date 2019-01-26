@@ -1,4 +1,4 @@
-//package com.mq.activemq.onetomany;
+package com.mq.activemq.onetomany;//package com.mq.activemq.onetomany;
 //
 //import javax.jms.Connection;
 //import javax.jms.ConnectionFactory;

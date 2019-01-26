@@ -8,42 +8,42 @@ import java.util.Comparator;
 import java.util.List;
 
 /**
- * è‡ªå®šä¹‰æ’åºæ±‰å­—
- * @author mahl
- * 2015å¹´11æœˆ12æ—¥ä¸Šåˆ11:15:55
+ * ×Ô¶¨ÒåÅÅĞòºº×Ö
+ * @author mahl  
+ * 2015Äê11ÔÂ12ÈÕÉÏÎç11:15:55
  */
 public class ListSortByCustom2{
 
 	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
 		List list = new ArrayList(10);
-		list.add("å‘");
-		list.add("çš„");
-		list.add("é¢");
-		list.add("è¡¨");
-		list.add("ä¸ª");
-		list.add("æ“¦");
-		list.add("å¥½");
-		list.add("å•Š");
-		System.out.println("åˆå§‹åŒ–listä¸º");
+		list.add("·¢");
+		list.add("µÄ");
+		list.add("¶î");
+		list.add("±í");
+		list.add("¸ö");
+		list.add("²Á");
+		list.add("ºÃ");
+		list.add("°¡");
+		System.out.println("³õÊ¼»¯listÎª");
 		output(list);
 		System.out.println();
-		System.out.println("é»˜è®¤æ’åºålistä¸º");
+		System.out.println("Ä¬ÈÏÅÅĞòºólistÎª");
 		Collections.sort(list);
 		output(list);
 		System.out.println();
-		System.out.println("è‡ªå®šä¹‰æ’åºålistä¸º");
+		System.out.println("×Ô¶¨ÒåÅÅĞòºólistÎª");
 		Collections.sort(list, new MyComparactor2());
 		output(list);
-		//æ‰€æœ‰å…ƒç´ åè½¬
+		//ËùÓĞÔªËØ·´×ª
 //		Collections.reverse(list);
 //		output(list);
 	}
-
+	
 	/**
-	 * è¾“å…¥list
+	 * ÊäÈëlist
 	 * @author mahl
-	 * 2015å¹´11æœˆ12æ—¥ä¸Šåˆ11:16:56
+	 * 2015Äê11ÔÂ12ÈÕÉÏÎç11:16:56
 	 */
 	public static void output(List list){
 		if(list != null && list.size() > 0){
@@ -54,34 +54,34 @@ public class ListSortByCustom2{
 			}
 			return;
 		}
-		System.out.println("listä¸ºç©ºï¼");
+		System.out.println("listÎª¿Õ£¡");
 	}
 }
 
 /**
- * è‡ªå®šä¹‰listæ¯”è¾ƒå™¨(æ±‰å­—)
- * @author mahl
- * 2015å¹´11æœˆ12æ—¥ä¸Šåˆ11:17:04
+ * ×Ô¶¨Òålist±È½ÏÆ÷(ºº×Ö)
+ * @author mahl  
+ * 2015Äê11ÔÂ12ÈÕÉÏÎç11:17:04
  */
 @SuppressWarnings("rawtypes")
 class MyComparactor2 implements Comparator{
 
-	//å…³äºCollatorã€‚
-	private Collator collator = Collator.getInstance();//ç‚¹å‡»æŸ¥çœ‹ä¸­æ–‡apiè¯¦è§£
-
+	//¹ØÓÚCollator¡£  
+	private Collator collator = Collator.getInstance();//µã»÷²é¿´ÖĞÎÄapiÏê½â
+	
 	@Override
 	public int compare(Object o1, Object o2) {
-		//æŠŠå­—ç¬¦ä¸²è½¬æ¢ä¸ºä¸€ç³»åˆ—æ¯”ç‰¹ï¼Œå®ƒä»¬å¯ä»¥ä»¥æ¯”ç‰¹å½¢å¼ä¸ CollationKeys ç›¸æ¯”è¾ƒ
-		//è¦æƒ³ä¸åŒºåˆ†å¤§å°å†™è¿›è¡Œæ¯”è¾ƒç”¨o1.toString().toLowerCase()
+		//°Ñ×Ö·û´®×ª»»ÎªÒ»ÏµÁĞ±ÈÌØ£¬ËüÃÇ¿ÉÒÔÒÔ±ÈÌØĞÎÊ½Óë CollationKeys Ïà±È½Ï  
+		//ÒªÏë²»Çø·Ö´óĞ¡Ğ´½øĞĞ±È½ÏÓÃo1.toString().toLowerCase()
 		CollationKey key1 = null;
 		CollationKey key2 = null;
 		if(o1 != null){
 			key1 = collator.getCollationKey(o1.toString().toLowerCase());
 		}
-		if(o2 != null){
-			key2 = collator.getCollationKey(o2.toString().toLowerCase());
-		}
-		return key1.compareTo(key2);
+	    if(o2 != null){
+	    	key2 = collator.getCollationKey(o2.toString().toLowerCase());
+	    }
+	    return key1.compareTo(key2);
 	}
-
+	
 }
